@@ -10,8 +10,8 @@ function wks { Set-Location "C:\Repositories\REPL" }
 $pshost = get-host
 $pswindow = $pshost.ui.rawui
 $newsize = $pswindow.buffersize
-$newsize.height = 750
-$newsize.width = 500
+$newsize.height = 80
+$newsize.width = 180
 $pswindow.buffersize = $newsize
 
 $newsize = $pswindow.windowsize
